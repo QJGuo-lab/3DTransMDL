@@ -1,0 +1,23 @@
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train.py > /home/yingmuzhi/microDL_3_0/src/out/train.out 2>&1 &
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_GAN.py > /home/yingmuzhi/microDL_3_0/src/out/train_GAN.out 2>&1 &
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_transMDL_single.py > /home/yingmuzhi/microDL_3_0/src/out/train_transMDL_single.out 2>&1 &
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_transMDL_single_2.py > /home/yingmuzhi/microDL_3_0/src/out/train_transMDL_single_2.out 2>&1 &
+
+# microDL
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_microDL_single.py > /home/yingmuzhi/microDL_3_0/src/out/train_microDL_single.out 2>&1 &
+
+# 3DUnet_5
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_3DUnet_ddp.py > /home/yingmuzhi/microDL_3_0/src/out/train_3DUnet_ddp.out 2>&1 &
+
+# 3DResUnet_5
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_3DResUnet_ddp.py > /home/yingmuzhi/microDL_3_0/src/out/train_3DResUnet_ddp.out 2>&1 &
+
+# 3duxnet
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_.py > /home/yingmuzhi/microDL_3_0/src/out/train_.out 2>&1 &
+
+# release1.0
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train.py > /home/yingmuzhi/microDL_3_0/src/out/train.out 2>&1 &
+
+# release2.0
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_ddp.py > /home/yingmuzhi/microDL_3_0/src/out/train_ddp.out 2>&1 &
+nohup python -u /home/yingmuzhi/microDL_3_0/train/train_ddp_2d.py > /home/yingmuzhi/microDL_3_0/src/out/train_ddp_2d.out 2>&1 &
